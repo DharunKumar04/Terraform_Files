@@ -1,0 +1,13 @@
+account_id                           = 123456789012
+infra_config_name                    = "example_infra_config"
+recipe_name                          = "example_recipe"
+recipe_version                       = "1.0.0"
+parent_image_arn                     = "arn:aws:imagebuilder:us-east-1:aws:image/amazon-linux-2-x86/x.x.x"
+device_name                          = "/dev/xvda"
+ebs_volume_size                      = 10
+ebs_delete_on_terminate              = true
+pipeline_name                        = "example_pipeline"
+source_region                        = "us-east-1"
+aws_imagebuilder_distribution_configuration_name = "example_distribution_config"
+distribution_region                  = "us-east-1"
+ami_distribution_configuration_name  = "example_ami_distribution"
